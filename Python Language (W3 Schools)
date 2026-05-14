@@ -29,35 +29,28 @@ PYTHON
    Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
    Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
 
-ONLINE PYTHON EDITOR: https://www.w3schools.com/python/trypython.asp?filename=demo_helloworld
+ONLINE PYTHON EDITOR
+   https://www.w3schools.com/python/trypython.asp?filename=demo_helloworld
 
 INSTALL PYTHON
    Download Python by the website https://www.python.org/
-
-CHECK IF PYTHON IS INSTALLED
-   Check if Python is Installed on Windows with Command Line (cmd): C:\Users\Your Name>python --version
-   Check if Python is Installed on Linux or Mac with Terminal: python --version
-
-CHECK THE PYTHON VERSION
-   To check the Python version of the editor, you can find it by importing the sys module:
-import sys
-print(sys.version)
+   Check if Python is Installed on Windows, Linux or Mac with Command Line (cmd, Terminal): python --version
+   Check the Python version of the editor, you can find it by importing the sys module:
+   import sys
+   print(sys.version)
 
 CODING IN PYTHON
    Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.
+   hello.py:
+   print("Hello, World!")
 
-hello.py:
-print("Hello, World!")
-
-After saving the file, open your command line (cmd), navigate to the directory where you saved your file, and run:
-C:\Users\Your Name>python hello.py
-
-The output should be: Hello, World!
-
+   After saving the file, open your command line (cmd), navigate to the directory where you saved your file, and run: python hello.py
+   The output should be: Hello, World!
 
 THE PYTHON COMMAND LINE (CMD)
    To test a short amount of code in python sometimes it is quickest and easiest not to write the code in a file. This is made possible because Python can be run as a command line itself. Type the following on the Windows, Mac or Linux command line: C:\Users\Your Name>python
-   Or, if the "python" command did not work, you can try "py": C:\Users\Your Name>py
+   Or, if the "python" command did not work, you can try writting "py"
+
    Example:
 C:\Users\Your Name>python
 Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
@@ -65,3 +58,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> print("Hello, World!")
 
 Output: Hello, World!
+Whenever you are done in the python command line, you can simply type the following to quit the python command line interface: exit()
+
+
+
+PYTHON COMMENT
+   Single Line: #
+   Multiple Lines: """ """
